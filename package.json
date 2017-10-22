@@ -1,0 +1,33 @@
+{
+  "name": "stub-server",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "test": "mocha .",
+    "test:dev": "npm run test -- --watch",
+    "precommit": "npm run lint && npm test",
+    "prepush": "npm run precommit"
+  },
+  "engines": {
+    "node": ">=8.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3",
+    "mocha": "^4.0.1",
+    "sinon": "^2.3.8"
+  },
+  "dependencies": {
+    "yakbak": "^2.6.0"
+  }
+}
