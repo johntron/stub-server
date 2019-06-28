@@ -28,6 +28,6 @@
     "sinon": "^5.0.6"
   },
   "dependencies": {
-    "yakbak": "^3.0.0"
+    "yakbak": "^4.0.0"
   }
 }
